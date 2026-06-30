@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+.box{
+    height: 100%;
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 136, 255, 0.258));
+}
+.hero{
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 30px;
+}
+.part1{
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+}
+.part2{
+  margin-top: 50px;
+  padding: 10px;
+  background-color: rgba(0, 89, 255, 0.122);
+  height: 140px;
+  border-radius: 30px;
+}
+.value p{
+  text-align: center;
+  font-size: 100px;
+  font-weight: 800; 
+}
+
+.part3{
+  display: flex;
+  justify-content:  space-between;
+  margin-top: 60px;
+}
+.part3 button{
+  font-size: 15px;
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+}
+.btn1{
+   display: flex;
+   gap: 15px;
+  
+}
+.butti{
+  height: 30px;
+  width: 120px;
+}
